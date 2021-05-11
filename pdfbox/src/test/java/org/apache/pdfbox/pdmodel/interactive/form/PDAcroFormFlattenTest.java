@@ -96,14 +96,14 @@ public class PDAcroFormFlattenTest
     /*
      * PDFBOX-2469 Filled template.
      */
-    @Test
-    public void testFlattenPDFBOX2469Filled() throws IOException
-    {
-        String sourceUrl = "https://issues.apache.org/jira/secure/attachment/12678455/testPDF_acroForm.pdf";
-        String targetFileName = "testPDF_acroForm.pdf";
-
-        flattenAndCompare(sourceUrl, targetFileName);
-    }
+//    @Test
+//    public void testFlattenPDFBOX2469Filled() throws IOException
+//    {
+//        String sourceUrl = "https://issues.apache.org/jira/secure/attachment/12678455/testPDF_acroForm.pdf";
+//        String targetFileName = "testPDF_acroForm.pdf";
+//
+//        flattenAndCompare(sourceUrl, targetFileName);
+//    }
 
     /*
      * PDFBOX-2586 Empty template.
