@@ -243,7 +243,7 @@ public class TestPDFToImage
             {
                 String fileName = outputPrefix + (i + 1) + ".png";
                 new FileOutputStream(new File(fileName + ".rendererror")).close();
-                BufferedImage image = renderer.renderImageWithDPI(i, 96); // Windows native DPI
+                BufferedImage image = renderer.renderImageWithDPI(i, 160); // Windows native DPI
                 new File(fileName + ".rendererror").delete();
                 LOG.info("Writing: " + fileName);
                 new FileOutputStream(new File(fileName + ".writeerror")).close();
